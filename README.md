@@ -4,7 +4,7 @@
   - Explain what each parameter varied is. Quickly show bifurcation diagrams and explain what animation does
   - Explain what each dependent variable is and how they correspond to graphs.
  
-# 1. The Variables
+## 1. The Variables
  
 | Variable | Description                  |
 | -------- | ---------------------------- |
@@ -13,7 +13,7 @@
 | **H(t)** | Harvesting effort            |
 | **P(t)** | Market price of healthy fish |
 
-# 2. The parameters Varied
+## 2. The parameters Varied
 
 | Symbol | Description                                                              |
 | :----: | :----------------------------------------------------------------------- |
@@ -24,7 +24,7 @@
 
 - For details on the parameters which were not varied read the paper in the repository above.
 
-# 3. The System of Equations
+## 3. The System of Equations
 
 ```math
 \frac{dX}{dt} = rX \left(1 - \frac{X + Y}{K}\right) - \lambda XY - \frac{q_1 X H}{X + D_1}
