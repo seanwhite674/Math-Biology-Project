@@ -1,8 +1,14 @@
-# Math-Biology-Project
+# Fish Population Modelling
 
-- To add to This:
-  - Explain what each parameter varied is. Quickly show bifurcation diagrams and explain what animation does
-  - Explain what each dependent variable is and how they correspond to graphs.
+This is a brief summary of a paper I wrote in a Mathematical Biology Undergraduate course. The paper is available to read in the repository above.
+In this project I recreated the results from a paper Titled: "Demand-induced regime shift in fishery: A mathematical perspective" found https://www.sciencedirect.com/science/article/pii/S0025556423000494.
+I conducted further stability analysis and examined the effect of different parameters on the Fish population.
+
+## Explaining This Repository:
+
+- `Solving_System_and_Testing_Stability` → Using solve_ivp to solve the system and the jacobian to understand the stability of different fixed points
+- `Animations_Varied_Parameters`→ Animating parameters changing and how the system evolves
+
  
 ## 1. The Variables
  
@@ -13,7 +19,7 @@
 | **H(t)** | Harvesting effort            |
 | **P(t)** | Market price of healthy fish |
 
-## 2. The parameters Varied
+## 2. The Parameters Varied
 
 | Symbol | Description                                                              |
 | :----: | :----------------------------------------------------------------------- |
@@ -69,19 +75,33 @@
 ## 5. How the parameters effected these points
 - For detailed explanation on this read the paper in the repository. Below is a few nice animations to grasp how the system changes with the different parameters
 
-## Varying the system with **λ** (The Transmission rate of infection between healthy and infected fish)
+#### Varying the system with **λ** (The Transmission rate of infection between healthy and infected fish)
 ![animation for lambda t=1000](https://github.com/seanwhite674/Math-Biology-Project/assets/110498155/fb8d5c42-e6d6-4215-810d-78b973eca000)
 
 
-## Varying the system with **K** (Environmental carrying capacity (maximum sustainable biomass))
+#### Varying the system with **K** (Environmental carrying capacity (maximum sustainable biomass))
 ![animation for K t=1000](https://github.com/seanwhite674/Math-Biology-Project/assets/110498155/7abf47ec-86aa-447d-8a73-2d215d6d802f)
 
 
-## Varying the system with **A** (Maximum market demand (controls the saturation level of consumer demand))
+#### Varying the system with **A** (Maximum market demand (controls the saturation level of consumer demand))
 ![animation for A t=1000](https://github.com/seanwhite674/Math-Biology-Project/assets/110498155/7a0652aa-5078-405c-9b89-4c3a68008032)
 
 
-## Varying the system with  **τ** (Taxation rate imposed on harvested fish)  
+#### Varying the system with  **τ** (Taxation rate imposed on harvested fish)  
 ![animation for tau t=1000](https://github.com/seanwhite674/Math-Biology-Project/assets/110498155/25a52869-4db6-4020-b9eb-cdc9e96c2605)
+
+
+## 6. Conclusion
+The table below highlights how a regime shift in the fish population can occur due to the four parameters examined. 
+
+<img width="900" height="180" alt="image" src="https://github.com/user-attachments/assets/5e9a7edb-e7c0-44d1-be0f-8e15fc88cf12" />
+
+ 
+This model shows that **overfishing and population collapse can arise from economic pressures** — such as high demand or low taxation — not just biological limits.  
+By linking economic factors to ecological dynamics, the model provides a more realistic framework for understanding how policy and economics directly influence fish population stability.
+
+
+
+
 
 
