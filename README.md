@@ -1,5 +1,9 @@
 # Math-Biology-Project
 
+- To add to This:
+  - Explain what each parameter varied is. Quickly show bifurcation diagrams and explain what animation does
+  - Explain what each dependent variable is and how they correspond to graphs.
+
 ## Varying the system with lambda
 ![animation for lambda t=1000](https://github.com/seanwhite674/Math-Biology-Project/assets/110498155/fb8d5c42-e6d6-4215-810d-78b973eca000)
 ## Showing that in the region where the endemic fixed point is stable the system does eventually collapse to the endemic fixed points
