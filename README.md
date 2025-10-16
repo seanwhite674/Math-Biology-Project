@@ -43,26 +43,31 @@
 ```
 
 
-# 3. The fixed points that existed
+## 4. The fixed points that existed
 
-## Equilibrium 1 - The Healthy Fish Equilibrium
+#### Equilibrium 1 - The Healthy Fish Equilibrium
 
 
 <img width="447" height="313" alt="image" src="https://github.com/user-attachments/assets/bd79794e-02f6-4dc8-a4dc-101b380d7a22" />
 
 
+#### Equilibrium 2 - The Healthy and Infected Fish Equilibrium
 
-## Equilibrium 2 - The Healthy and Infected Fish Equilibrium
-
-
-## Equilibrium 3 - The disease free Equilibrium
+<img width="447" height="313" alt="image" src="https://github.com/user-attachments/assets/c53e3b66-7534-499f-aa85-6e5c916d1afa" />
 
 
-## Equilibrium 4 - The Endemic Equilibrium
+#### Equilibrium 3 - The disease free Equilibrium
+
+<img width="447" height="313  " alt="image" src="https://github.com/user-attachments/assets/b18338cb-8987-4c40-a4e7-366f26a0d03a" />
 
 
+#### Equilibrium 4 - The Endemic Equilibrium
+
+<img width="447" height="313" alt="image" src="https://github.com/user-attachments/assets/50a03f7f-6025-446d-bdb6-36c2d8d30d7d" />
 
 
+## 5. How the parameters effected these points
+- For detailed explanation on this read the paper in the repository. Below is a few nice animations to grasp how the system changes with the different parameters
 
 ## Varying the system with lambda
 ![animation for lambda t=1000](https://github.com/seanwhite674/Math-Biology-Project/assets/110498155/fb8d5c42-e6d6-4215-810d-78b973eca000)
@@ -81,5 +86,4 @@
 ## Varying the system with tau
 ![animation for tau t=1000](https://github.com/seanwhite674/Math-Biology-Project/assets/110498155/25a52869-4db6-4020-b9eb-cdc9e96c2605)
 
-## Showing that in the region where the endemic fixed point is stable the system does eventually collapse to the endemic fixed points
-![large tau goes to endemic state](https://github.com/seanwhite674/Math-Biology-Project/assets/110498155/0acca3ab-fb60-4369-a504-0871b62a950c)
+
