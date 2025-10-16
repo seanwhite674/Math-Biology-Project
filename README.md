@@ -97,8 +97,7 @@ The table below highlights how a regime shift in the fish population can occur d
 <img width="900" height="180" alt="image" src="https://github.com/user-attachments/assets/5e9a7edb-e7c0-44d1-be0f-8e15fc88cf12" />
 
  
-This model shows that **overfishing and population collapse can arise from economic pressures** ,such as high demand or low taxation, not just biological limits.  
-By linking economic factors to ecological dynamics, the model provides a more realistic framework for understanding how policy and economics directly influence fish population stability.
+This model shows that **overfishing and population collapse can arise from economic pressures** ,such as high demand or low taxation, not just biological limits.  By linking economic factors to ecological dynamics, the model provides a more realistic framework for understanding how policy and economics directly influence fish population stability.
 
 
 
