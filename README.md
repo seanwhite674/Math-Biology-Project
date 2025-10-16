@@ -48,6 +48,10 @@
 ## Equilibrium 1 - The Healthy Fish Equilibrium
 
 
+<img width="447" height="313" alt="image" src="https://github.com/user-attachments/assets/bd79794e-02f6-4dc8-a4dc-101b380d7a22" />
+
+
+
 ## Equilibrium 2 - The Healthy and Infected Fish Equilibrium
 
 
