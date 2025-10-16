@@ -3,6 +3,14 @@
 - To add to This:
   - Explain what each parameter varied is. Quickly show bifurcation diagrams and explain what animation does
   - Explain what each dependent variable is and how they correspond to graphs.
+ 
+| Variable | Description                  |
+| -------- | ---------------------------- |
+| **X(t)** | Biomass of healthy fish      |
+| **Y(t)** | Biomass of infected fish     |
+| **H(t)** | Harvesting effort            |
+| **P(t)** | Market price of healthy fish |
+
 
 ## Varying the system with lambda
 ![animation for lambda t=1000](https://github.com/seanwhite674/Math-Biology-Project/assets/110498155/fb8d5c42-e6d6-4215-810d-78b973eca000)
