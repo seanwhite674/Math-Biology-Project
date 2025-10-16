@@ -4,12 +4,60 @@
   - Explain what each parameter varied is. Quickly show bifurcation diagrams and explain what animation does
   - Explain what each dependent variable is and how they correspond to graphs.
  
+# 1. The Variables
+ 
 | Variable | Description                  |
 | -------- | ---------------------------- |
 | **X(t)** | Biomass of healthy fish      |
 | **Y(t)** | Biomass of infected fish     |
 | **H(t)** | Harvesting effort            |
 | **P(t)** | Market price of healthy fish |
+
+# 2. The parameters Varied
+
+| Symbol | Description                                                              |
+| :----: | :----------------------------------------------------------------------- |
+|  **τ** | Taxation rate imposed on harvested fish                                  |
+|  **λ** | Transmission rate of infection between healthy and infected fish         |
+|  **K** | Environmental carrying capacity (maximum sustainable biomass)            |
+|  **A** | Maximum market demand (controls the saturation level of consumer demand) |
+
+- For details on the parameters which were not varied read the paper in the repository above.
+
+# 3. The System of Equations
+
+```math
+\frac{dX}{dt} = rX \left(1 - \frac{X + Y}{K}\right) - \lambda XY - \frac{q_1 X H}{X + D_1}
+```
+
+```math
+\frac{dY}{dt} = \lambda XY - \mu Y - \frac{q_2 Y H}{Y + D_2}
+```
+
+```math
+\frac{dH}{dt} = \phi_1 H \left[\left(\frac{q_1 (P - \tau) X}{X + D_1} + \frac{q_2 (p - \tau) Y}{Y + D_2}\right) - c \right]
+```
+
+```math
+\frac{dP}{dt} = \phi_2 P \left(\frac{A}{1 + BP} - \frac{q_1 X H}{X + D_1}\right)
+```
+
+
+# 3. The fixed points that existed
+
+## Equilibrium 1 - The Healthy Fish Equilibrium
+
+
+## Equilibrium 2 - The Healthy and Infected Fish Equilibrium
+
+
+## Equilibrium 3 - The disease free Equilibrium
+
+
+## Equilibrium 4 - The Endemic Equilibrium
+
+
+
 
 
 ## Varying the system with lambda
